@@ -4,59 +4,14 @@
     padding: 0;
 }
 
-
-
-body {
+html {
     background-color:#1d267cde;
     --cor-secundaria: #080533be;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.principal {
+.section1 {
     display: flex;
-}
-
-.perfil {
-    background-color: var(--cor-secundaria);
-    padding-bottom: 609px;
-    width: 25%;
-    text-align: center;
-    align-items: center;
-    color: white;
-    flex-wrap: wrap;
-}
-
-.nome1 {
-    margin-bottom: 30px;
-    font-size: 2em;
-    text-decoration: overline;
-    font-style: italic;
-
-}
-
-.github {
-    margin: 10px;
-    align-items: start;
-}
-
-.link {
-    color: white;
-    text-decoration: none;
-    font-style: italic;
-    font-size: 1.2em;
-    margin: 30px;
-}
-
-.link:hover {
-    background-color: rgba(229, 241, 240, 0.13);
-    cursor: pointer
-}
-
-.nome2 {
-    font-size: 2em;
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 25px;
 }
 
 p {
@@ -65,6 +20,38 @@ p {
     /* padding-inline: 30px; */
 }
 
+
+/**********************************************************************************************************************/
+aside {
+    background-color: var(--cor-secundaria);
+    padding-bottom: 609px;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.nome1 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    text-decoration: overline;
+    font-style: italic;
+}
+.github {
+    margin: 10px;
+    align-items: start;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 30px;
+}
+.link:hover {
+    background-color: rgba(229, 241, 240, 0.13);
+    cursor: pointer
+}
 .perfil img {
     margin: 20px;
     width: 270px;
@@ -74,6 +61,19 @@ p {
     border: double 4px;
 }
 /************************************************************************************************************************/
+.nome2 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+/***********************************************************************************************************************/
 .card1 {
     color: white;
     background-color: var(--cor-secundaria);
@@ -119,7 +119,6 @@ p {
 .container1 p {
     padding: 10px;
     margin: 10px;
-    cursor: pointer;
 }
 
 .container1 p:hover {
@@ -131,88 +130,54 @@ hr {
     border: double;
 }
 
-/*******************/
-.container2 {
-    display: flex
-}
-
-.container2 img {
-    width: 150px;
-    border: solid 1px;
-    border-radius: 50px;
-    padding: 5px;
-    margin: 10px;
-}
-
-.container2 p {
-    padding: 10px;
-    margin: 10px;
-}
-
-.container2 p:hover {
-    background-color: rgba(229, 241, 240, 0.13);
-    cursor: pointer
-}
-
-hr {
-    border: double;
-}
-
-/*******************/
-.container3 {
-    display: flex
-}
-
-.container3 img {
-    width: 150px;
-    border: solid 1px;
-    border-radius: 50px;
-    padding: 5px;
-    margin: 10px;
-}
-
-.container3 p {
-    padding: 10px;
-    margin: 10px;
-}
-
-
-.container3 p:hover {
-    background-color: rgba(229, 241, 240, 0.13);
-    cursor: pointer
-}
-
 /************************************************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card3 {
     color: white;
+    background-color: var(--cor-secundaria);
     flex-wrap: wrap;
     margin: 20px 5px;
     padding: 50px;
     text-align: justify;
 }
+
+.Network{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1d267cde;
+}
+
+.container2 img {
+    width: 350px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container2 a{
+    text-align: center;
+    padding: 25px;
+    margin: 15px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
 
 .icones p {
     display: inline-block;
@@ -220,7 +185,7 @@ hr {
 }
 
 
-.botao {
+/* .botao {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -228,8 +193,21 @@ hr {
     bottom: 10px;
     right: 10px;
     cursor: pointer;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+} */
+
+.botao a {
+    font-size: 14px;
+}
+
+.botao {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(51, 204, 51, 0.3);
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
 }
