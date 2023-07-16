@@ -172,8 +172,6 @@ hr {
     align-items: center;
     border-radius: 8px;
     margin-bottom: 20px;
-    margin: 5px;
-    /* padding: 20px; */
     width: 40%;
     background-color: #26307c44;
 }
@@ -187,8 +185,7 @@ hr {
 
 .container2 a{
     text-align: center;
-    padding: 25px;
-    margin: 10px;
+    padding: 10px;
     text-decoration: none;
     color: white;
 }
