@@ -265,9 +265,6 @@ hr {
         width: 100%;
         flex-direction: column;
     }
-    .botao{
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 768px){
