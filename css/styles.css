@@ -265,6 +265,9 @@ hr {
         width: 100%;
         flex-direction: column;
     }
+    .card3{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px){
