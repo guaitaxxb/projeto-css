@@ -149,7 +149,7 @@ hr {
 .card3 {
     color: white;
     background-color: var(--cor-secundaria);
-    margin: 20px;
+    margin: 5px;
     padding: 15px;
     width: 90%;
     display: flex;
@@ -188,7 +188,7 @@ hr {
 .container2 a{
     text-align: center;
     padding: 25px;
-    margin: 15px 10px;
+    margin: 10px;
     text-decoration: none;
     color: white;
 }
