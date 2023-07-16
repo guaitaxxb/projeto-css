@@ -172,8 +172,8 @@ hr {
     align-items: center;
     border-radius: 8px;
     margin-bottom: 20px;
-    margin: 20px;
-    padding: 20px;
+    margin: 5px;
+    /* padding: 20px; */
     width: 40%;
     background-color: #26307c44;
 }
